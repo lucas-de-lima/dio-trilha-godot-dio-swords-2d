@@ -163,7 +163,7 @@ debug_color = Color(0.827451, 0.0235294, 0, 0.286275)
 [node name="Player" parent="." instance=ExtResource("1_opeo4")]
 position = Vector2(552, 348)
 sword_damage = 5
-health = 1
+health = 50
 special_damage = 10
 
 [node name="RemoteTransform2D - Camera" type="RemoteTransform2D" parent="Player"]
