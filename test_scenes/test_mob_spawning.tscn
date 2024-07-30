@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://c4bsp8fne23sn"]
+
+[ext_resource type="PackedScene" uid="uid://phopfryqnkjv" path="res://player/player.tscn" id="1_qb7qb"]
+[ext_resource type="PackedScene" uid="uid://dns4tbncrkhxb" path="res://system/mob_spawning.tscn" id="2_wyrnb"]
+
+[node name="TestMobSpawning" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_qb7qb")]
+position = Vector2(477, 346)
+sword_damage = 5
+
+[node name="MobSpawner" parent="." instance=ExtResource("2_wyrnb")]
+position = Vector2(10, 35)
